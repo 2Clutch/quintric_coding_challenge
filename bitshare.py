@@ -9,6 +9,6 @@ args = vars(user.parse_args())
 try:
     account = Account("{}" .format(args["user"]))
     for balance in account.balances:
-        print("\n", balance, "\n")
+        print(balance, "\n")
 except AccountDoesNotExistsException:
     print("The user you're looking for does not exist.")
