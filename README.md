@@ -12,7 +12,7 @@ First, you will want to clone the repository using the following command:
 git clone https://github.com/2Clutch/quintric_coding_challenge
 ```
 
-To interact with the blockchain, I used [pybitshares](http://docs.pybitshares.com/en/latest/index.html). According to their documentation, there are 2 ways to install the library. I used `pip3`, running:
+To interact with the blockchain, I used [pybitshares](http://docs.pybitshares.com/en/latest/index.html). According to their documentation, there are 2 ways to install the library. I went with `pip3`, running:
 ```commandline
 sudo apt-get install libffi-dev libssl-dev python-dev python3-dev python3-pip
 pip3 install bitshares
