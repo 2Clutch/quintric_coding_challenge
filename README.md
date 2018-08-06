@@ -23,6 +23,4 @@ Just for clarification, each line above represents a command to be ran independe
 python3 bitshares.py -u [insert_user_name_here]
 ```
 
-<br>
-
 ![alt_text](sample_output.png)
